@@ -1,0 +1,29 @@
+name: "Prior art / Известные аналоги"
+description: "Point to an existing method, paper, tool or standard with an equivalent mechanism."
+title: "[Prior art] "
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: Which statement or claim is challenged?
+      placeholder: "Reference a precise section."
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Prior work and stable source URLs
+      description: "Explain what specific mechanism existed before."
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Mechanism comparison
+      description: "Which features are genuinely equivalent and which are not?"
+    validations:
+      required: true
+  - type: textarea
+    id: implications
+    attributes:
+      label: Implications for the wording of the hypothesis
