@@ -1,7 +1,6 @@
 name: "Counterexample / Ложное разрешение или остановка"
 description: "Challenge a VeriLayer rule with a reproducible scenario."
 title: "[Counterexample] "
-labels: ["needs-triage"]
 body:
   - type: markdown
     attributes:
