@@ -1,0 +1,24 @@
+name: "TRIZ test / Проверка полезности ТРИЗ"
+description: "Evaluate contradiction resolution against conventional architecture analysis."
+title: "[TRIZ] "
+body:
+  - type: textarea
+    id: contradiction
+    attributes:
+      label: Concrete engineering contradiction
+      description: "What improves and what worsens? What is the invariant?"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives, TRIZ step and ordinary baseline
+      description: "State comparable resources/budgets and options."
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Outcome, evidence, counterexample or negative result
+    validations:
+      required: true
