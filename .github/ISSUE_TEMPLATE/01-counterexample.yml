@@ -1,0 +1,48 @@
+name: "Counterexample / Ложное разрешение или остановка"
+description: "Challenge a VeriLayer rule with a reproducible scenario."
+title: "[Counterexample] "
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please provide one concrete, safe-to-share case. Do not include credentials, personal data, or proprietary source."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of problem
+      options:
+        - False Proceed
+        - False Stop
+        - Wrong dependency scope
+        - Evidence laundering
+        - Invalid waiver
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: rule
+    attributes:
+      label: Challenged rule or claim
+      placeholder: "e.g. S05 / L2 / VO"
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Minimal task and requested action
+      description: "Provide exact relevant requirements, version, action and dependencies."
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual versus expected decision
+      description: "Attach safe reproducer and evidence, if available."
+    validations:
+      required: true
+  - type: textarea
+    id: resolution
+    attributes:
+      label: What would disprove or resolve your objection?
+    validations:
+      required: true
