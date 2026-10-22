@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Read critical review instructions"
+    url: "https://github.com/SoldatovAlexander/verilayer-method/blob/main/REVIEW_GUIDE.md"
+    about: "Check evidence, reproducibility and confidentiality guidelines first."
