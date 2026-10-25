@@ -1,0 +1,21 @@
+{
+  "action": {
+    "id": "edit_unrelated_readme",
+    "scope": "docs",
+    "artifact_version": "1.0"
+  },
+  "required_vo_ids": [],
+  "verification_obligations": [
+    {
+      "id": "VO-DELETE-01",
+      "claim": "Deleting a task can be undone in the accepted window",
+      "scope": "task-delete",
+      "artifact_version": "1.0",
+      "status": "VERIFIED",
+      "evidence_refs": [
+        "EV-DELETE-01"
+      ]
+    }
+  ],
+  "evidence": []
+}
