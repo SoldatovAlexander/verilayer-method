@@ -1,0 +1,12 @@
+---
+description: VeriLayer v0.5 — scoped evidence, TRIZ contradiction analysis and agent handoff
+alwaysApply: true
+---
+
+# VeriLayer project rule (Cursor)
+
+Read the local \`VERILAYER_RULES.md\` and \`PROJECT_BRIEF.md\` first. Use them as the shared methodology protocol.
+
+When solving a task: state goal, risk (Lite/Standard/Critical), current level L0–L5, verification method and claim; open VO for important unverified claims; analyse material contradictions by TRIZ CR-1…CR-7; keep VO / run / gate / agent-action states separate. Apply S01–S12 to the specific requested action, **not** all development. Independent reversible work can continue.
+
+Do not present a test design or review as an actually executed test. Never assume that tool execution or approval happened. Do not bypass required human approval; the example JSON gate checker is educational only. Close each handoff with scope, evidence, exact gate reason, remaining risk and allowed next action.
