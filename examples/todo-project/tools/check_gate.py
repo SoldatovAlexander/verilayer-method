@@ -48,7 +48,7 @@ def decide(record):
             if ev is None or ev.get("vo_id") != vo_id or ev.get("scope") != action["scope"] or ev.get("artifact_version") != action["artifact_version"]:
                 blockers.append(f"{vo_id}: missing/mismatched evidence {ev_id} (S06/S11)")
                 continue
-            if ev.get("result") != "PASS" or ev.get("run_status") not in ("EXECUTED_PASS", "REVIEW_APPROVED"):
+            if ev.get("result") != "PASS" or ev.get("run_status") != "EXECUTED_PASS":
                 blockers.append(f"{vo_id}: evidence {ev_id} was not a successful verification (S07/S08)")
             if not isinstance(ev.get("source_ref"), str) or not ev["source_ref"].strip():
                 blockers.append(f"{vo_id}: evidence {ev_id} has no provenance source_ref (S06)")
