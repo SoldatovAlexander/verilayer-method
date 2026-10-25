@@ -1,9 +1,9 @@
 # VeriLayer working record templates (human-facing examples)
 
-These are **illustrative**, not a stable schema. Refer to sections 11–17 of public \`METHODOLOGY.md\` for definitive semantics. Do not fill unknown facts with fabricated results.
+These are **illustrative**, not a stable schema. Refer to sections 11–17 of public `METHODOLOGY.md` for definitive semantics. Do not fill unknown facts with fabricated results.
 
 ## Verification Obligation (VO)
-\`\`\`yaml
+```yaml
 id: VO-DELETE-01
 claim: "Undo restores an accidentally deleted task within the approved interval"
 source: PROJECT_BRIEF.md
@@ -22,10 +22,10 @@ status: PLANNED
 evidence_refs: []
 residual_risk: "Undo window remains to be approved"
 linked_car: CAR-DELETE-01
-\`\`\`
+```
 
 ## Contradiction Analysis Record (CAR)
-\`\`\`yaml
+```yaml
 car_id: CAR-DELETE-01
 source: [user_needs_fast_delete, user_needs_undo]
 level: L1
@@ -43,10 +43,10 @@ linked_vo: [VO-DELETE-01]
 proposed_evidence: [unit_tests, acceptance_scenarios, restart_recovery]
 owner: product-owner
 status: OPEN
-\`\`\`
+```
 
 ## Evidence Record
-\`\`\`yaml
+```yaml
 id: EV-DELETE-01
 vo_id: VO-DELETE-01
 object_version: "1.0"
@@ -57,10 +57,10 @@ source_ref: ""  # MUST be a real retrievable report, not a placeholder
 reviewer: ""
 result: INCONCLUSIVE
 limitations: "No integration run performed yet"
-\`\`\`
+```
 
 ## Gate Decision
-\`\`\`yaml
+```yaml
 action_id: release_task_delete
 scope: task-delete
 requested_level: L5
@@ -71,6 +71,6 @@ reasons: [S05, S08]
 required_vo_ids: [VO-DELETE-01]
 allowed_parallel_work: [edit_unrelated_readme]
 authority: product-owner
-\`\`\`
+```
 
-**Critical note:** \`tools/check_gate.py\` expects a simpler JSON **teaching fixture** rather than the full YAML record format above. It has intentionally no cryptographic trust, ACL checking, waiver handling or production authorization. JSON fixtures should never be used as proof that a live CI run occurred.
+**Critical note:** `tools/check_gate.py` expects a simpler JSON **teaching fixture** rather than the full YAML record format above. It has intentionally no cryptographic trust, ACL checking, waiver handling or production authorization. JSON fixtures should never be used as proof that a live CI run occurred.
