@@ -5,7 +5,7 @@ alwaysApply: true
 
 # VeriLayer project rule (Cursor)
 
-Read the local \`VERILAYER_RULES.md\` and \`PROJECT_BRIEF.md\` first. Use them as the shared methodology protocol.
+Read the local `VERILAYER_RULES.md` and `PROJECT_BRIEF.md` first. Use them as the shared methodology protocol.
 
 When solving a task: state goal, risk (Lite/Standard/Critical), current level L0–L5, verification method and claim; open VO for important unverified claims; analyse material contradictions by TRIZ CR-1…CR-7; keep VO / run / gate / agent-action states separate. Apply S01–S12 to the specific requested action, **not** all development. Independent reversible work can continue.
 
