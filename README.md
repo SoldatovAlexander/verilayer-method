@@ -58,14 +58,14 @@ A gate blocks **only the dependent action**. Architectural review must not be pr
 
 **[Готовый пример To-Do List с инструкциями для Cline, Cursor, Codex, OpenCode, Claude Code и GitHub Copilot](examples/todo-project/README.md).**
 
-В комплекте: общий протокол \`VERILAYER_RULES.md\`, нативные файлы правил каждого инструмента, brief, CAR/VO/Evidence/Gate шаблоны, четыре синтетических JSON-сценария и учебный Python checker с unit-тестами. Для быстрой проверки:
+В комплекте: общий протокол `VERILAYER_RULES.md`, нативные файлы правил каждого инструмента, brief, CAR/VO/Evidence/Gate шаблоны, четыре синтетических JSON-сценария и учебный Python checker с unit-тестами. Для быстрой проверки:
 
-\`\`\`bash
+```bash
 git clone https://github.com/SoldatovAlexander/verilayer-method.git
 cp -R verilayer-method/examples/todo-project ./todo-verilayer-lab
 cd todo-verilayer-lab
 python -m unittest discover -s tests -v
-\`\`\`
+```
 
 **Важно:** Это обучающий starter kit, а не готовый агентный runtime и не сертифицированный policy enforcement. Проверка не аутентифицирует CI/evidence и не заменяет внешние разрешения для опасных операций. Примеры не доказывают экспериментальную эффективность методологии.
 
