@@ -30,9 +30,9 @@ Apache 2.0 permits commercial use, modification and distribution under its condi
 
 ### Explicit scope for agent starter templates
 
-Within \`examples/todo-project/\` the following are **CC BY 4.0 documentation/instruction text**, even when stored in tool-specific configuration directories: \`VERILAYER_RULES.md\`, \`AGENTS.md\`, \`CLAUDE.md\`, \`.clinerules/**/*.md\`, \`.cursor/rules/**/*.mdc\`, \`.github/copilot-instructions.md\`, \`README.md\`, \`PROJECT_BRIEF.md\`, \`PROMPTS_AND_EXPECTATIONS.md\`, and \`.verilayer/TEMPLATES.md\`.
+Within `examples/todo-project/` the following are **CC BY 4.0 documentation/instruction text**, even when stored in tool-specific configuration directories: `VERILAYER_RULES.md`, `AGENTS.md`, `CLAUDE.md`, `.clinerules/**/*.md`, `.cursor/rules/**/*.mdc`, `.github/copilot-instructions.md`, `README.md`, `PROJECT_BRIEF.md`, `PROMPTS_AND_EXPECTATIONS.md`, and `.verilayer/TEMPLATES.md`.
 
-Executable Python code (\`tools/*.py\`, \`tests/*.py\`) and synthetic machine-readable JSON test fixtures (\`.verilayer/fixtures/*.json\`) in the starter are **Apache 2.0**. These specific assignments take precedence over the general example of \`.github/\` automation files above: a narrative agent-instructions file is not a script.
+Executable Python code (`tools/*.py`, `tests/*.py`) and synthetic machine-readable JSON test fixtures (`.verilayer/fixtures/*.json`) in the starter are **Apache 2.0**. These specific assignments take precedence over the general example of `.github/` automation files above: a narrative agent-instructions file is not a script.
 
 ## Mixed files, third parties and contributions
 
