@@ -1,6 +1,6 @@
 # GitHub Copilot repository instructions — VeriLayer v0.5
 
-Use \`VERILAYER_RULES.md\` as the authoritative shared instruction and \`PROJECT_BRIEF.md\` as the example scope.
+Use `VERILAYER_RULES.md` as the authoritative shared instruction and `PROJECT_BRIEF.md` as the example scope.
 
 Apply abstraction-aligned verification L0–L5, design ↔ verifiability, scoped VO/evidence with versions, and S01–S12 Stop Gates. Run material-contradiction TRIZ analysis with at least two architecturally distinct alternatives; document harms and new VOs. Do not require TRIZ cards for trivial tasks.
 
