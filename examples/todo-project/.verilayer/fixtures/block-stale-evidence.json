@@ -1,0 +1,33 @@
+{
+  "action": {
+    "id": "release_task_delete",
+    "scope": "task-delete",
+    "artifact_version": "1.0"
+  },
+  "required_vo_ids": [
+    "VO-DELETE-01"
+  ],
+  "verification_obligations": [
+    {
+      "id": "VO-DELETE-01",
+      "claim": "Deleting a task can be undone in the accepted window",
+      "scope": "task-delete",
+      "artifact_version": "1.0",
+      "status": "VERIFIED",
+      "evidence_refs": [
+        "EV-DELETE-01"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-DELETE-01",
+      "vo_id": "VO-DELETE-01",
+      "scope": "task-delete",
+      "artifact_version": "0.9",
+      "result": "PASS",
+      "run_status": "EXECUTED_PASS",
+      "source_ref": "ci://EXAMPLE-ONLY/123"
+    }
+  ]
+}
