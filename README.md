@@ -104,6 +104,7 @@ Primary outcomes: **critical False Proceed**, **False Stop**, correctness of blo
 | [METHODOLOGY.md](METHODOLOGY.md) | Полная методология v0.5 и сквозной пример To-Do List |
 | [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) | Гипотезы, исследовательские группы, метрики и защита от утечек |
 | [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | Правила научной и инженерной критики |
+| [research/INTENT-PRESERVATION-HYPOTHESIS.md](research/INTENT-PRESERVATION-HYPOTHESIS.md) | Ненормативное исследовательское предложение: сохранение замысла, обратная трассировка, проверка предпосылок; с благодарностью и ссылкой на исходную концепцию |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Как предложить исправление или воспроизводимый контрпример |
 | [ANNOUNCEMENT_RU.md](ANNOUNCEMENT_RU.md) | Объявление для профессионального сообщества |
 | [LICENSE.md](LICENSE.md) | Области действия двух лицензий и порядок атрибуции |
@@ -113,6 +114,12 @@ Primary outcomes: **critical False Proceed**, **False Stop**, correctness of blo
 ## Relation to Existing Methods / Что не объявляется изобретением
 
 NASA V&V and the V-model, GSN/assurance cases, risk-based verification, TDD/BDD/ATDD, GitHub Spec Kit/OpenSpec and Altshuller's TRIZ already establish important parts of this practice. The research question is whether their **specified combination and agent-action protocol** provides measurable improvement at acceptable cost. No global originality claim is made.
+
+## Research Acknowledgements / Благодарности
+
+**Благодарим Альберта Тома (Albert Toma)** — автора концепции **«Книга» (The Book)**, опубликованной в [AI-4x4/book-concept-publication](https://github.com/AI-4x4/book-concept-publication). Описанная автором проблема **«дрейфа Идеи»** стала источником вдохновения для **[отдельной гипотезы по сохранению замысла](research/INTENT-PRESERVATION-HYPOTHESIS.md)**. С признательностью указываем авторство концепции; существующие L0–L5, VO и Stop Gates VeriLayer не считаем её заимствованием. Предложения пока не проверены, не приняты в v0.5 и не означают участия или одобрения автора.
+
+**EN:** We thank **Albert Toma**, author of **The Book** published at [AI-4x4/book-concept-publication](https://github.com/AI-4x4/book-concept-publication), for his account of *intent drift*. It inspired a [separate, untested research proposal](research/INTENT-PRESERVATION-HYPOTHESIS.md), without implying co-authorship or endorsement. The original publication has **no open license**; its texts, diagrams and templates are not included here.
 
 ## License & Attribution / Лицензии
 
