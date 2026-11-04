@@ -105,6 +105,7 @@ Primary outcomes: **critical False Proceed**, **False Stop**, correctness of blo
 | [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) | Гипотезы, исследовательские группы, метрики и защита от утечек |
 | [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | Правила научной и инженерной критики |
 | [research/INTENT-PRESERVATION-HYPOTHESIS.md](research/INTENT-PRESERVATION-HYPOTHESIS.md) | Ненормативное исследовательское предложение: сохранение замысла, обратная трассировка, проверка предпосылок; с благодарностью и ссылкой на исходную концепцию |
+| [research/UB-MODE-ENGINEERING-DISCIPLINE-ASSESSMENT.md](research/UB-MODE-ENGINEERING-DISCIPLINE-ASSESSMENT.md) | Ненормативный анализ ub-mode (Robert C. Martin): инженерная дисциплина агента, Premise Challenge, L4 quality evidence, ограничения полномочий и отдельный экспериментальный протокол; **NOT RUN** |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Как предложить исправление или воспроизводимый контрпример |
 | [ANNOUNCEMENT_RU.md](ANNOUNCEMENT_RU.md) | Объявление для профессионального сообщества |
 | [LICENSE.md](LICENSE.md) | Области действия двух лицензий и порядок атрибуции |
