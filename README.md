@@ -105,7 +105,7 @@ Primary outcomes: **critical False Proceed**, **False Stop**, correctness of blo
 | [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) | Гипотезы, исследовательские группы, метрики и защита от утечек |
 | [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | Правила научной и инженерной критики |
 | [research/INTENT-PRESERVATION-HYPOTHESIS.md](research/INTENT-PRESERVATION-HYPOTHESIS.md) | Ненормативное исследовательское предложение: сохранение замысла, обратная трассировка, проверка предпосылок; с благодарностью и ссылкой на исходную концепцию |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Как предложить исправление или воспроизводимый контрпример |
+| [research/SUPERPOWERS-PROCESS-HYPOTHESIS.md](research/SUPERPOWERS-PROCESS-HYPOTHESIS.md) | Ненормативное исследование Superpowers: intent, task handoff, независимое ревью, проверка поведения agent skills; подготовлены сценарии To-Do |\n| [research/RUNTIME-ENFORCEMENT-HYPOTHESIS.md](research/RUNTIME-ENFORCEMENT-HYPOTHESIS.md) | Ненормативное исследование SpaceAI Guard: EEC, техническое ограничение действий и Enforcement Evidence; подготовлены сценарии To-Do |\n| [CONTRIBUTING.md](CONTRIBUTING.md) | Как предложить исправление или воспроизводимый контрпример |
 | [ANNOUNCEMENT_RU.md](ANNOUNCEMENT_RU.md) | Объявление для профессионального сообщества |
 | [LICENSE.md](LICENSE.md) | Области действия двух лицензий и порядок атрибуции |
 
@@ -120,6 +120,10 @@ NASA V&V and the V-model, GSN/assurance cases, risk-based verification, TDD/BDD/
 **Благодарим Альберта Тома (Albert Toma)** — автора концепции **«Книга» (The Book)**, опубликованной в [AI-4x4/book-concept-publication](https://github.com/AI-4x4/book-concept-publication). Описанная автором проблема **«дрейфа Идеи»** стала источником вдохновения для **[отдельной гипотезы по сохранению замысла](research/INTENT-PRESERVATION-HYPOTHESIS.md)**. С признательностью указываем авторство концепции; существующие L0–L5, VO и Stop Gates VeriLayer не считаем её заимствованием. Предложения пока не проверены, не приняты в v0.5 и не означают участия или одобрения автора.
 
 **EN:** We thank **Albert Toma**, author of **The Book** published at [AI-4x4/book-concept-publication](https://github.com/AI-4x4/book-concept-publication), for his account of *intent drift*. It inspired a [separate, untested research proposal](research/INTENT-PRESERVATION-HYPOTHESIS.md), without implying co-authorship or endorsement. The original publication has **no open license**; its texts, diagrams and templates are not included here.
+
+**Благодарим Jesse Vincent (obra) и участников [Superpowers](https://github.com/obra/superpowers)** за развитие composable skills и процессных практик для coding agents. Отдельное [исследование](research/SUPERPOWERS-PROCESS-HYPOTHESIS.md) предлагает проверить, дают ли intent playback, scoped handoff и TDD для agent skills дополнительную пользу сверх существующего VeriLayer. Оригинальный проект имеет лицензию MIT; никаких материалов из него сюда не копируется. Упоминание не подразумевает участия или одобрения авторов.
+
+**Благодарим команду [SpaceAI-UAG](https://github.com/SpaceAI-UAG/LLM-agent-security)** за прототип SpaceAI Guard — практический источник для [исследования технических границ исполнения](research/RUNTIME-ENFORCEMENT-HYPOTHESIS.md). Исследование отделено от VeriLayer v0.5, security-аудит не проводился; лицензионные права на копирование их кода не заявляются.
 
 ## License & Attribution / Лицензии
 
