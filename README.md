@@ -105,7 +105,9 @@ Primary outcomes: **critical False Proceed**, **False Stop**, correctness of blo
 | [EXPERIMENT_PROTOCOL.md](EXPERIMENT_PROTOCOL.md) | Гипотезы, исследовательские группы, метрики и защита от утечек |
 | [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | Правила научной и инженерной критики |
 | [research/INTENT-PRESERVATION-HYPOTHESIS.md](research/INTENT-PRESERVATION-HYPOTHESIS.md) | Ненормативное исследовательское предложение: сохранение замысла, обратная трассировка, проверка предпосылок; с благодарностью и ссылкой на исходную концепцию |
-| [research/SUPERPOWERS-PROCESS-HYPOTHESIS.md](research/SUPERPOWERS-PROCESS-HYPOTHESIS.md) | Ненормативное исследование Superpowers: intent, task handoff, независимое ревью, проверка поведения agent skills; подготовлены сценарии To-Do |\n| [research/RUNTIME-ENFORCEMENT-HYPOTHESIS.md](research/RUNTIME-ENFORCEMENT-HYPOTHESIS.md) | Ненормативное исследование SpaceAI Guard: EEC, техническое ограничение действий и Enforcement Evidence; подготовлены сценарии To-Do |\n| [CONTRIBUTING.md](CONTRIBUTING.md) | Как предложить исправление или воспроизводимый контрпример |
+| [research/SUPERPOWERS-PROCESS-HYPOTHESIS.md](research/SUPERPOWERS-PROCESS-HYPOTHESIS.md) | Ненормативное исследование Superpowers: intent, task handoff, независимое ревью, проверка поведения agent skills; подготовлены сценарии To-Do |
+| [research/RUNTIME-ENFORCEMENT-HYPOTHESIS.md](research/RUNTIME-ENFORCEMENT-HYPOTHESIS.md) | Ненормативное исследование SpaceAI Guard: EEC, техническое ограничение действий и Enforcement Evidence; подготовлены сценарии To-Do |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Как предложить исправление или воспроизводимый контрпример |
 | [ANNOUNCEMENT_RU.md](ANNOUNCEMENT_RU.md) | Объявление для профессионального сообщества |
 | [LICENSE.md](LICENSE.md) | Области действия двух лицензий и порядок атрибуции |
 
